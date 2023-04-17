@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+
+.carnum-wrap {}
+.carnum-box {}
+.carnum-box .b-date {text-align: center; display: block; color: #fff; margin-top: 20px; margin-bottom: 10px; font-size: 0.9rem;}
+
+.carnum-box li h3 {margin-bottom: 10px; color: var(--txtC1); font-size: 0.9rem; margin-bottom: 10px;}
+.carnum-box li span.km {width: 100%; color: var(--txtC5); font-size: 0.8rem; margin-bottom: 5px; display: block;}
+.carnum-box li .company-name {font-weight: bold;  color: var(--txtC5); font-size: 0.8rem;}
+.carnum-box li .car-won {color: var(--txtC5); font-weight: normal; font-size: 0.9rem;}
+.carnum-box li .car-won span {font-weight: bold; }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>바이크허브</title>
+    <link rel="stylesheet" href="/include/css/reset.css">
+    <link rel="stylesheet" href="/include/css/font.css">
+    <link rel="stylesheet" href="/include/css/common.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <script src="/include/js/jquery-3.6.3.min.js"></script>
+    <script src="/include/js/common.js"></script>
+</head>
+<body>
+
+    <header>
+    </header>
+
+
+    
+    <!-- 개별 css,js -->
+    <script src="/include/js/rent_sharing.js"></script>
+    <link rel="stylesheet" href="/include/css/rent_sharing.css">
+
+
+
+    <section class="cm-section-sub cm-mt100">
+        <form action="">
+            <fieldset>
+                <legend>휴차 공유 검색</legend>
+                <select name="" id="" class="cm-select cm-w40p cm-fll">
+                    <option value="none">시/도 선택</option>
+                    <option value="AAAA">AAAA</option>
+                    <option value="BBBB">BBBB</option>
+                    <option value="CCCC">CCCC</option>
+                    <option value="DDDD">DDDD</option>
+                </select>
+                <select name="" id="" class="cm-select cm-w57p cm-flr">
+                    <option value="none">구/시/군 선택</option>
+                    <option value="AAAA">AAAA</option>
+                    <option value="BBBB">BBBB</option>
+                    <option value="CCCC">CCCC</option>
+                    <option value="DDDD">DDDD</option>
+                </select>
+                <select name="" id="" class="cm-select">
+                    <option value="none">차종</option>
+                    <option value="AAAA">AAAA</option>
+                    <option value="BBBB">BBBB</option>
+                    <option value="CCCC">CCCC</option>
+                    <option value="DDDD">DDDD</option>
+                </select>
+
+                <ul class="cm-check-wrap">
+                    <li>
+                        <input type="radio" id="radio3-1" name="name3" checked>
+                        <i></i>
+                        <label for="radio3-1">"거래중"만 보기</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="radio3-2" name="name3">
+                        <i></i>
+                        <label for="radio3-2">내차만 보기</label>
+                    </li>
+                </ul>
+
+
+                <div class="trading-list">
+                    <div class="trading-top">
+                        <h3>등록차량 <span><strong>65</strong>대</span></h3>
+                        <a href="/html/sub/rent_sharing/sharing_registration.html"><img src="/images/common/icon-plus.png" alt=""> 내차 등록하기</a>
+                    </div>
+
+                    <div class="sharing-box">
+                        <!--거래중  -->
+                        <a href="/html/sub/rent_sharing/sharing_detail.html">
+                            <ul class="sharing-ing">
+                                <li>
+                                    <p class="tit">PCX125(cbs)</p>
+                                    <p class="icon-sharing2">거래중</p>
+                                    <p class="icon-sharing1">보증</p>
+                                    <p class="monthwon">월 843,000원</p>
+                                    <p class="stat">인수형  l  보험연령 <span class="age">만 30세</span> 이상  l  휘발유</p>
+                                    <p class="bo">보증금 550,000원</p>
+                                    <p class="period">계약기간 : 2023.01.01 ~ 2023.12.31</p>
+                                </li>
+                            </ul>
+                        </a>
+
+                        <!-- 거래완료 -->
+                        <a href="/html/sub/rent_sharing/sharing_detail.html">
+                            <ul class="sharing-ing complete">
+                                <li>
+                                    <p class="tit">PCX125(cbs)</p>
+                                    <p class="icon-sharing-complete">거래완료</p>
+                                    <p class="monthwon">월 843,000원</p>
+                                    <p class="stat">인수형  l  보험연령 <span class="age">만 30세</span> 이상  l  휘발유</p>
+                                    <p class="bo">보증금 550,000원</p>
+                                    <p class="period">계약기간 : 2023.01.01 ~ 2023.12.31</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+
+
+                </div>
+                
+
+            </fieldset>
+        </form>
+
+        <div class="cm-btn-wrap">
+            <button type="button" class="cm-btn cm-blue" onclick="location.href='#'"><img src="/images/common/icon-plus.png" alt="" class="icon"> 더보기 50건</button>
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="link-box">
+            <a href="#">로그아웃</a>
+            <a href="#">약관 및 정책</a>
+            <a href="#">개인정보취급방침</a>
+        </div>
+
+        <address>법인명(상호) : BIKE-HUB | 사업자등록번호 : 000-00-0000
+            대표번호 : 0000-0000 | FAX : 00-0000-0000
+            서울 금천구 디지털로9길 41 삼성IT헤링턴타워</address>
+    </footer>
+</body>
+</html>

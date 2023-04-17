@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.splash {width: 100%; height: 100vh; background: url(/images/default/bg-splash.jpg); background-size: cover; position: fixed; left: 0; top: 0; z-index: 777; }
+.splash img {width: 200px; position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+
+.section-default {width: auto; padding: 0 30px; margin-top: 5rem; margin-bottom: 2.5rem; }
+.section-default .btns-box {display: flex; flex-wrap: wrap; gap:10px; margin-bottom: 0.7rem;}
+.section-default .btns-box > a {border:1px solid #3091e8; flex:1 0 114px; min-height: 114px; position: relative; background: url('/images/default/btn-bg.png') no-repeat 1px 1px;}
+.section-default .btns-box > a h2 {color: #fff; font-weight: normal; font-size: 0.95rem; height: 2rem;line-height: 2rem; text-indent: 0.5rem;}
+.section-default .btns-box > a i {position: absolute; width: 47px; height: 46px; right:5px; bottom: 0;}
+.section-default .btns-box > a i img {width: 100%;}
+.section-default .btns-box > a:nth-child(2) i img {width: 100%;}
+
+
+.section-default .slide-box {height: 110px; border-radius: 10px; overflow: hidden; margin-top: 0.7rem;}
+.section-default .slide-box .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.section-default .slide-box .swiper-slide {
+  text-align: center;
+  font-size: 0.9rem;
+  background: var(--bg2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-default .slide-box .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-default .slide-box .autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.section-default .slide-box .autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+

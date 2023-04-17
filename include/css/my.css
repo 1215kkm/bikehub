@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+
+
+.pointbox {background: #050666; min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.pointbox li {display: flex; height: 1.5rem; align-items: center; }
+.pointbox h3 {font-size: 0.8rem; line-height: 1.5rem; color: #fff; font-weight: normal; flex:1}
+.won {color: #fff; font-size: 0.8rem; line-height: 1.5rem; font-weight: bold;}
+.iconpoint {width: 18px; height: 18px; background: #C27A0A; border-radius: 50%; text-align: center; color: #fff; margin-top: 0px; margin-left: 10px; font-size: 0.8rem;}
+.times {width: 18px; height: 18px; border-radius: 50%; text-align: center; color: #fff; margin-top: 6px; margin-left: 10px; font-size: 0.8rem;}

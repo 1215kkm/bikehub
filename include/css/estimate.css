@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+
+
+/* 소모품 선택화면 */
+.somobox-head {background: #050666; min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1.4rem; transition: .5s; z-index: 7; margin-top: 1rem; margin-bottom: 1rem;}
+.somobox-head.on {background: #3734BF; width: calc(100%); left: 0; /* padding: 0.3rem 2rem;  */position: fixed; top:38px; box-sizing: border-box; border-radius: 0 0 3px 3px;}
+
+.somobox-head li {display: flex; height: 1.5rem; align-items: center; bor }
+.somobox-head h3 {font-size: 0.8rem; line-height: 1.5rem; color: #fff; font-weight: normal; flex:1}
+
+.somobox-head li .somo {flex:1 0 0; font-size: 15px; color: #fff; cursor: pointer; }
+.somobox-head li .somo.on {text-decoration: underline; text-underline-position : under; color: var(--txtC1); }
+.somobox-head li .view_total {flex: 1.7; text-align: right;font-size: 15px; color: var(--txtC3); }
+.somobox-head li .view_total img {float: right; width: 18px; margin-left: 4px;}
+
+.somobox-head.on ~ .somobox-title {margin-top: 170px;}
+
+
+.somobox-title {background: rgba(105, 120, 255,0.8); border-radius:  10px; border:1px dashed rgba(255,255,255,0.6); color: #fff; font-size: 0.7rem; display: flex; flex-wrap: wrap; position: relative;}
+.somobox-title:before,
+.somobox-title:after {content: ""; position: absolute; width: 4px; height: 10px; background: url('/images/sub/estimate/icon-c.png') no-repeat; background-size: 100%; z-index: 3; bottom: -6px;}
+.somobox-title:before {left: 33.333%;}
+.somobox-title:after {left: 66.666%;}
+
+.somobox-title li {height: 1.1rem; line-height: 1.1rem; text-indent: 0.5rem;}
+.somobox-title li:nth-child(1) {width: 100%; border-bottom: 1px dashed rgba(255,255,255,0.6); text-indent: 1.5rem;}
+.somobox-title li:nth-child(2) {width: 33%; text-align: center; }
+.somobox-title li:nth-child(3) {width: 33%; text-align: center; }
+.somobox-title li:nth-child(4) {width: 33%; text-align: center; }
+
+.somobox-title.on ~ .somobox-cont {margin-top: 170px;}
+
+
+.somobox-cont {background:var(--bg2); min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.somobox-cont li {display: flex; height: auto; align-items: center; margin-bottom: 3px; flex-wrap: wrap; }
+.somobox-cont h3 {font-size: 0.8rem; line-height: 1.5rem; color: var(--txtC7); font-weight: normal; flex:1}
+.won {color: #fff; font-size: 0.8rem; line-height: 1.5rem; font-weight: bold;}
+.somobox-cont li .won {color:  var(--txtC7);; font-style: normal; font-size: 15px;}
+.somobox-cont li .won span {margin-right: 5px;}
+.somobox-cont li .ea {color:  var(--txtC7);; font-style: normal; font-size: 15px; font-weight: bold;}
+.somobox-cont li .ea span {margin-right: 5px;}
+.somobox-cont li.on {background: var(--select2); position: relative; }
+.somobox-cont li.on h3,
+.somobox-cont li.on .won {color:  var(--txtC5) }
+.somobox-cont li.on:before,
+.somobox-cont li.on:after {content: ""; position: absolute; width: 8px; height: 100%; top: 0; background: inherit;}
+.somobox-cont li.on:before {left: -7px; border-radius: 3px 0 0 3px;}
+.somobox-cont li.on:after {right: -7px; border-radius: 0 3px 3px 0;}
+
+.somobox-cont li p {color:  var(--txtC7);; font-size: 0.8rem;}
+.somobox-cont li p.tit {flex-basis:70%; color: var(--txtC4);}
+.somobox-cont li i.del {flex-basis:30%; text-align: right; cursor: pointer;}
+.somobox-cont li i.del img {width: 20px;}
+.somobox-cont li p.icon-change {flex:0.8; background: #019120; text-align: center; color: #fff;}
+.somobox-cont li p.won {flex:2; text-align: center; padding: 0 10px; color: var(--txtC7);}
+.somobox-cont li p.ea {flex:1; background: rgba(0,0,0,0.06); text-align: center; color: var(--txtC7);}
+
+.view-estimate {background: none; padding: 0;}
+.view-estimate li {margin-bottom: 3px; border-bottom: 1px dashed rgba(255,255,255,0.3); padding-bottom: 20px; background: var(--bg2); padding: 0.75rem 1rem; border-radius: 10px; border-bottom: 0; }
+.view-estimate li:last-child {border-bottom: 0; }
+
+
+.list-estimate {background: none; padding: 0;}
+.list-estimate li {margin-bottom: 3px; border-bottom: 1px dashed rgba(255,255,255,0.3); padding-bottom: 20px; background: var(--bg2); padding: 0.75rem 1rem; border-radius: 10px; border-bottom: 0; align-items: stretch;}
+.list-estimate li p {border-right: 1px solid rgba(0,0,0,0.1); font-size: 0.75rem;}
+.list-estimate li p.tit {flex-basis:100%; color: var(--txtC7); height: 1.5rem; border: 0; font-weight: bold;}
+.list-estimate li p.won {flex:1; line-height: 0.9rem; font-weight: normal; }
+.list-estimate li p.date {flex:1; }
+.icon-reservation {flex:0.8; background: #DA2F2F; text-align: center; color: #fff; padding: 0 0.4rem; font-style: normal;}
+.list-estimate li p.ea {background: rgba(255,255,255,0); text-align: center; font-weight: normal;}
+.list-estimate li:last-child {border-bottom: 0; }
+.list-estimate li p:last-child {border-right: 0; }
+
+.somobox-head.on ~ .motor-img {margin-top: 170px;}
+.motor-img img {width: 100%;}
+
+
+
+.map-box {height: 100vh; overflow: hidden;}
+
+

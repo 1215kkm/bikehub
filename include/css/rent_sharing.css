@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+
+.sharing-box {background: none; padding: 0;border-radius: 10px;word-break: keep-all; margin-top: 1rem; margin-bottom: 1rem; }
+.sharing-box li {margin-bottom: 3px; border-bottom: 1px dashed rgba(255,255,255,0.3); padding-bottom: 20px; background: var(--bg2); padding: 0.75rem 1rem; border-radius: 10px; border-bottom: 0; justify-content: space-between;}
+.sharing-box li h3 {margin-bottom: 10px; color: var(--txtC4); font-size: 0.9rem; margin-bottom: 10px;}
+.sharing-box li .rent-cont {width: 100%; color: var(--txtC7); font-size: 0.8rem; margin-bottom: 5px; display: block;}
+.sharing-box li:last-child {border-bottom: 0; }
+
+
+.sharing-btnbox {margin-top: 30px;}
+.sharing-btnbox a {float: left; width: 49%;}
+.sharing-btnbox a:last-child {float: right; width: 49%;}
+
+
+
+
+
+
+.sharing-box2 li {display: flex; height: auto; align-items: center; margin-bottom: 3px; flex-wrap: wrap; justify-content: space-between;}
+.sharing-box2 li p {color:  var(--txtC7);; font-size: 0.8rem;}
+.sharing-box2 li p.tit {flex-basis:70%; color: var(--txtC4);}
+.sharing-box2 li i.del {flex-basis:30%; text-align: right; cursor: pointer;}
+.sharing-box2 li i.del img {width: 20px;}
+.sharing-box2 li p.icon-change {flex:0.8; background: #019120; text-align: center; color: #fff;}
+.sharing-box2 li p.won {flex:2; text-align: center; padding: 0 10px; color: var(--txtC7);}
+.sharing-box2 li p.ea {flex:1; background: rgba(0,0,0,0.06); text-align: center; color: var(--txtC7);}
+
+.sharing-box2 li .tit {margin-bottom: 10px; color: var(--txtC1) !important}
+.sharing-box2 li .icon-change {background: var(--icon1) !important; color: #222 !important; }
+.sharing-box2 li .dayday {width: 100%; color: var(--txtC5); margin-bottom: 5px;}
+.sharing-box2 li .month {width: 100%; color: var(--txtC5); margin-bottom: 5px;}
+.sharing-box2 li .company-name {background: none; padding: 0; font-weight: bold;  color: var(--txtC5); margin-bottom: 0;font-size: 0.9rem;}
+
+
+
+
+.sharing-box2 {margin: 1rem 0;}
+.sharing-box2 .bikeandbohum,
+.sharing-box2 .onlybohum {display: none;}
+
+.sharing-box2 li {align-items: flex-start; flex-wrap: wrap;}
+.sharing-box2 li p {color: #fff; margin-bottom: 0.4em;}
+.sharing-box2 li p span.age {color: var(--txtC1); font-weight: bold;}
+.sharing-box2 li p.daily {color: rgb(255, 105, 5); }
+.sharing-box2 li p.noti {color: var(--txtC1);}
+.sharing-box2 li p.noti .icon-error {width: 18px; vertical-align: middle; }
+
+
+.sharing-box2 .certi-num {display: flex; margin-top: 20px; align-items: center;}
+.sharing-box2 .certi-num label { color: #fff;}
+.sharing-box2 .certi-num .cm-text { flex:1;}
+.sharing-box2 .cm-request { margin-top: 2rem;}
+
+
+.sharing-box2 {background: #050666;min-height: 1.5rem;border-radius: 10px;padding: 0.75rem 1.4rem;transition: .5s; display: flex; justify-content: space-between; align-items: center}
+.sharing-box2 h3 {font-size: 0.8rem;color: #fff;cursor: pointer; font-weight: normal;}
+.sharing-box2 .misuwon {font-size: 0.8rem;color: var(--txtC1);cursor: pointer; font-weight: bold; }
+
+
+.inrent li p.icon-change {background: var(--bg4) !important; color: #fff !important;}
+.applyrent li p.icon-change {background: crimson !important; color: #fff !important;}
+
+
+
+
+
+
+.sharing-mainhead {padding: 0.75rem 1rem; background: var(--bg2);}
+
+.trading-list {margin-top: 1rem;}
+.trading-list .trading-top {display: flex; justify-content: space-between; padding: 0.9rem 0; align-items: center;}
+.trading-list .trading-top h3 {font-size: 0.9rem; color: #fff; } 
+.trading-list .trading-top h3 span {color: var(--txtC1); }
+.trading-list .trading-top a {background: var(--bg6); padding: 5px 10px; color: #fff; border-radius: 3px; }
+.trading-list .trading-top a img {width: 17px; vertical-align: middle;}
+
+
+.sharing-ing li {position: relative;}
+.sharing-ing p {margin-bottom: 10px; color: var(--bg6)}
+.sharing-ing .tit {color: var(--bg6); font-weight: bold;}
+.sharing-ing .monthwon {color: crimson;}
+.sharing-ing .icon-sharing1 {background: crimson; text-align: center; color: #fff; float: right; font-size: 0.7rem; margin-left: 5px; padding: 3px 10px; border-radius: 3px; margin-bottom: 0;;}
+.sharing-ing .icon-sharing2 {background: var(--bg4); text-align: center; color: #fff; float: right; font-size: 0.7rem; margin-left: 5px; padding: 3px 10px; border-radius: 3px; margin-bottom: 0;}
+.sharing-ing .monthwon {}
+.sharing-ing .stat {}
+.sharing-ing .bo {}
+.sharing-ing .period {}
+
+.sharing-ing.complete li {background: var(--btnC4) !important;}
+.sharing-ing.complete li p {color: #fff;}
+.sharing-ing.complete li p.icon-sharing-complete {background: #fff;text-align: center; color: var(--txtC7); float: right; font-size: 0.7rem; margin-left: 5px; padding: 3px 10px; border-radius: 3px; margin-bottom: 0;}
+
+
+
+.rentsharing-box {background: #050666; min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.rentsharing-box li {display: flex; height: 1.5rem; align-items: center; }
+.rentsharing-box h3 {font-size: 0.8rem; line-height: 1.5rem; color: #fff; font-weight: normal; flex:1}
+.won {color: #fff; font-size: 0.8rem; line-height: 1.5rem; font-weight: bold;}
+.iconpoint {width: 18px; height: 18px; background: #C27A0A; border-radius: 50%; text-align: center; color: #fff; margin-top: 0px; margin-left: 10px; font-size: 0.8rem;}
+.times {width: 18px; height: 18px; border-radius: 50%; text-align: center; color: #fff; margin-top: 6px; margin-left: 10px; font-size: 0.8rem;}
+
+
+
+.sharing-ing .cm-blue4 p {margin-bottom: 10px; color: #fff; font-size: 0.8rem;}
+.sharing-ing .cm-blue4 .tit {color: var(--txtC1); font-weight: bold;}
+.sharing-ing .cm-blue4 .monthwon {color: crimson;}
+.sharing-ing .cm-blue4 .icon-sharing1 {background: crimson; text-align: center; color: #fff; float: right; font-size: 0.7rem; margin-left: 5px; padding: 3px 10px; border-radius: 3px; margin-bottom: 0;;}
+.sharing-ing .cm-blue4 .icon-sharing2 {background: var(--bg4); text-align: center; color: #fff; float: right; font-size: 0.7rem; margin-left: 5px; padding: 3px 10px; border-radius: 3px; margin-bottom: 0;}
+.sharing-ing .cm-blue4 .allbohum .age {color: var(--txtC1); font-weight: bold;}
+
+.sharing-btnbox2 {margin-top: 30px;}
+.sharing-btnbox2 div {float: left; width: 49%;}
+.sharing-btnbox2 div:last-child {float: right; width: 49%;}
+
+
+.sharing-box .sharing-warranty li {padding: 0 !important; overflow: hidden;}
+.sharing-box textarea {width: 100%;}
+
+
+
+.photo-input {display: grid; min-height: 100px;
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    grid-gap:5px}
+.photo-input li {background: #f0f0f0; overflow: hidden; padding: 0; font-size: 0; position: relative; padding-top: 97%; margin-bottom: 0;}
+.photo-input li:first-child {grid-row:1/3; ;}
+.photo-input li img {width: 100%; position: absolute; left: 0; top: 0; z-index: 2;}
+
+.photo-input li:before {content: ""; position: absolute; font-size: 1rem; left: 50%; top: 50%; transform: translate(-50%,-50%); color: #999;}
+.photo-input li:nth-child(1):before {content: "전";}
+.photo-input li:nth-child(2):before {content: "좌";}
+.photo-input li:nth-child(3):before {content: "우";}
+.photo-input li:nth-child(4):before {content: "후";}
+.photo-input li:nth-child(5):before {content: "위";}
+
+
+
+
+
+.btn-checkinput {flex-wrap: wrap;}
+.btn-checkinput .cm-btn:nth-child(3) {flex:1 0 100%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

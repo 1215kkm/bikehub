@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>바이크허브</title>
+    <link rel="stylesheet" href="/include/css/reset.css">
+    <link rel="stylesheet" href="/include/css/font.css">
+    <link rel="stylesheet" href="/include/css/common.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <script src="/include/js/jquery-3.6.3.min.js"></script>
+    <script src="/include/js/common.js"></script>
+</head>
+<body>
+
+    <header>
+    </header>
+
+
+    
+    <!-- 개별 css,js -->
+    <script src="/include/js/reservation.js"></script>
+    <link rel="stylesheet" href="/include/css/reservation.css">
+
+
+
+    <section class="cm-section-sub cm-mt100">
+        <div class="reserv-box autoH cm-mb15">
+            <h3>예약상태</h3>
+            <p class="stat-box"><!-- 예약취소는 'cancel' class 추가하기  -->
+                <span class="stat">정비완료</span>
+                <span class="reserv-number">예약번호 : 1234567</span>
+            </p>
+        </div>
+
+        <div class="reserv-box cm-mb15">
+            <h2 class="cm-tit2 cm-mb15">예약일시</h2>
+            <div class="reserv">
+                <p>2023년 03월 25일 13시</p>
+                <button type="button">수정</button>
+                <!-- <button type="button" class="cm-off">수정불가</button> -->
+                <small><img src="/images/common/icon-error.png" alt=""> 예약일 1일 전 부터는 변경이 불가능 합니다.</small>
+            </div>
+        </div>
+
+        <div class="company cm-mb15">
+            <h2 class="cm-tit2 cm-mb15">정비 협력사</h2>
+            <div class="company-name autoH">
+                <h3>서울강서 오토바이</h3>
+                <strong class="phone">(<span>02-2646-0000</span>)</strong>
+                <address>서울 양천구 신목로 60-1서울 양천구 신목로 60-1서울 양천구 신목로 60-1</address>
+            </div>
+        </div>
+
+        <div class="cm-request">
+            <h2 class="cm-tit2 cm-mb20">요청사항</h2>
+            <textarea name="" id="" placeholder="정비 협력사에 요청사항이 있는 경우, 입력해 주세요."></textarea>
+        </div>
+
+
+        <div class="detail-box">
+            <ul>
+                <li>
+                    <p class="tit">견적금액</p>
+                    <p class="price"><span>- 131,500</span> 원</p>
+                </li>
+                <li>
+                    <p class="tit">총 결제금액</p>
+                    <p class="price"><span>131,500</span> 원</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cm-btn-wrap">
+            <a href="/html/sub/account/change_pwd.html" class="cm-btn cm-blue2 reserv-cancle">예약취소</a>
+            <!-- <a href="/html/sub/account/change_pwd.html" class="cm-btn cm-blue2 cm-off">예약취소</a> -->
+            <!-- <a href="/html/sub/account/change_pwd.html" class="cm-btn cm-blue2 reserv-cancle">정비완료</a> -->
+            <!-- <a href="/html/sub/account/change_pwd.html" class="cm-btn cm-blue2 reserv-cancle cm-off">정비완료</a> -->
+
+            <a href="/html/sub/reservation/reservation_list.html" class="cm-btn cm-blue reserv-ok">확인</a>
+        </div>
+
+
+        <p class="cm-message">
+            <span>예약일시 변경을 2일 전 까지 가능합니다.</span>
+            <span>예약취소 수수료<br>
+                3일전 : 없음<br>
+                2일전 : 10%<br>
+                1일전 : 20%
+            </span>
+        </p>
+    </section>
+
+
+
+
+    <footer>
+        <div class="link-box">
+            <a href="#">로그아웃</a>
+            <a href="#">약관 및 정책</a>
+            <a href="#">개인정보취급방침</a>
+        </div>
+
+        <address>법인명(상호) : BIKE-HUB | 사업자등록번호 : 000-00-0000
+            대표번호 : 0000-0000 | FAX : 00-0000-0000
+            서울 금천구 디지털로9길 41 삼성IT헤링턴타워</address>
+    </footer>
+</body>
+</html>

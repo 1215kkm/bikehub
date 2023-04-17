@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>바이크허브</title>
+    <link rel="stylesheet" href="/include/css/reset.css">
+    <link rel="stylesheet" href="/include/css/font.css">
+    <link rel="stylesheet" href="/include/css/common.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <script src="/include/js/jquery-3.6.3.min.js"></script>
+    <script src="/include/js/common.js"></script>
+</head>
+<body>
+    <header>
+    </header>
+
+
+    <link rel="stylesheet" href="/include/css/my.css">
+
+
+
+    <section class="section-default">
+        <div class="btns-box">
+            <a href="/html/sub/estimate/basic_info.html">
+                <h2>정비예약</h2>
+                <i><img src="/images/default/default-icon1.svg" alt=""></i>
+            </a>
+            <a href="#">
+                <h2>견적 미리보기</h2>
+                <i><img src="/images/default/default-icon2.svg" alt=""></i>
+            </a>
+            <a href="#">
+                <h2>차계부</h2>
+                <i><img src="/images/default/default-icon3.svg" alt=""></i>
+            </a>
+            <a href="#">
+                <h2>정비협력사</h2>
+                <i><img src="/images/default/default-icon4.svg" alt=""></i>
+            </a>
+            <a href="#">
+                <h2>바이크 렌트</h2>
+                <i><img src="/images/default/default-icon5.svg" alt=""></i>
+            </a>
+            <a href="#">
+                <h2>렌트차량 공유</h2>
+                <i><img src="/images/default/default-icon6.svg" alt=""></i>
+            </a>
+        </div>
+        <div class="pointbox cm-mt20 cm-mb20">
+            <ul>
+                <li>
+                    <h3>My 포인트</h3>
+                    <span class="won">35,000</span>
+                    <span class="iconpoint">P</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="slide-box">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <link rel="stylesheet" href="/include/css/default.css">
+
+    <div class="splash">
+        <img src="/images/common/logo-big0.png" alt="">
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        on: {
+            autoplayTimeLeft(s, time, progress) {
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+            }
+        }
+        });
+    </script>
+    
+
+
+
+
+    <footer>
+    </footer>
+</body>
+</html>

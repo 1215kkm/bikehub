@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>바이크허브</title>
+    <link rel="stylesheet" href="/include/css/reset.css">
+    <link rel="stylesheet" href="/include/css/font.css">
+    <link rel="stylesheet" href="/include/css/common.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <script src="/include/js/jquery-3.6.3.min.js"></script>
+    <script src="/include/js/common.js"></script>
+</head>
+<body>
+
+    <header>
+    </header>
+
+
+    <link rel="stylesheet" href="/include/css/rent_sharing.css">
+
+
+    <section class="cm-section-sub cm-mt100">
+        
+        <form action="">
+            <fieldset>
+                <legend>내차등록하기 화면 구성</legend>
+                <div class="cm-input_box cm-mb50">
+                    <span class="cm-alarm"><img src="/images/common/bul1.png" alt="" class="cm-bul1">“㈜바이크렌탈”에서 렌트중인 차량번호를 입력 해주세요.</span>
+
+                    <label class="input_wrap cm-mb20 cm-mt20 cm-w49p"><input type="text" placeholder="차량번호 전체를 입력" class="cm-text cm-w50p cm-inb"></label>
+                    <button type="button" class="cm-btn cm-w45p">검색</button>
+                </div>
+
+
+                <div class="cm-mb30">
+                    <h2 class="cm-tit2">차량정보</h2>
+                    <div class="sharing-box">
+                        <ul class="sharing-ing">
+                            <li class="cm-blue4">
+                                <p class="tit">
+                                    <strong>혼다 / PCX125(cbs)</strong>
+                                    <span class="icon-sharing2">거래중</span>
+                                </p>
+                                <p class="stat">2022년식 | <span class="age">8,428</span>km</p>
+                                <p class="option">옵션 : 배달통/슬라이드침대 / 핸드폰거치대 / 핸드폰거치대</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="cm-mb30">
+                    <h2 class="cm-tit2">리스정보</h2>
+                    <div class="sharing-box">
+                        <ul class="sharing-ing">
+                            <li class="cm-blue4">
+                                <p class="tit">
+                                    <strong class="cm-mr15">혼다 / PCX125(cbs)</strong>
+                                    <strong>보증금 : 55만원</strong>
+                                </p>
+                                <p class="period">계약기간 : 2023.11.05 ~ 2023.11.04</p>
+                                <p class="allbohum">반납형 | 보험연경 <span class="age">만 30세</span> 이상 | 종합보험</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <select name="" id="" class="cm-select cm-w40p cm-fll">
+                    <option value="none">시/도 선택</option>
+                    <option value="AAAA">AAAA</option>
+                    <option value="BBBB">BBBB</option>
+                    <option value="CCCC">CCCC</option>
+                    <option value="DDDD">DDDD</option>
+                </select>
+                <select name="" id="" class="cm-select cm-w57p cm-flr">
+                    <option value="none">구/시/군 선택</option>
+                    <option value="AAAA">AAAA</option>
+                    <option value="BBBB">BBBB</option>
+                    <option value="CCCC">CCCC</option>
+                    <option value="DDDD">DDDD</option>
+                </select>
+
+                <label class="input_wrap cm-mb20 cm-mt20"><input type="text" placeholder="핸드폰 번호( &#39; - &#39; 제외 )" class="cm-text"></label>
+
+
+                
+                <div class="cm-mb30">
+                    <h2 class="cm-tit2 cm-mt30">사진등록</h2>
+                    <div class="sharing-box">
+
+                        <ul class="photo-input">
+                            <li><img src="//picsum.photos/200/200" alt=""></li>
+                            <li><img src="//picsum.photos/200/300" alt=""></li>
+                            <li><img src="//picsum.photos/200/400" alt=""></li>
+                            <li><img src="//picsum.photos/200/300" alt=""></li>
+                            <li></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="cm-mb30">
+                    <h2 class="cm-tit2">기타사항</h2>
+                        
+                    <div class="sharing-box">
+                        <ul>
+                            <li><textarea name="" id="" placeholder="기타사항이 있는 경우, 입력해 주세요."></textarea></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                
+                <p class="cm-message">
+                    <span>등록 후 “협력사”를 방문하여 차량점검을 받으시면 [보증] 마크가 표시되고, 다른 사용자가 차량 점검표를 확인하실 수 있습니다.</span>
+                </p>
+
+
+                <!-- 신규등록시 표시되는 버튼 -->
+                <div class="cm-btn-wrap btn-newinput">
+                    <button type="button" class="cm-btn cm-blue4" onclick="location.href='#'">취소</button>
+                    <button type="submit" class="cm-btn cm-blue" onclick="location.href='#'">등록하기</button> 
+                </div>
+
+
+                <!-- 자신이 등록한 정보를 조회한 경우 표시되는 버튼 -->
+                <div class="cm-btn-wrap btn-checkinput">
+                    <button type="button" class="cm-btn cm-blue4" onclick="location.href='#'">목록보기</button>
+                    <button type="submit" class="cm-btn cm-blue" onclick="location.href='#'">저장하기</button> 
+                    <button type="button" class="cm-btn cm-blue4 cm-w100p" onclick="location.href='#'">등록취소하기</button> 
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+
+
+
+
+
+
+
+    <footer>
+        <div class="link-box">
+            <a href="#">로그아웃</a>
+            <a href="#">약관 및 정책</a>
+            <a href="#">개인정보취급방침</a>
+        </div>
+
+        <address>법인명(상호) : BIKE-HUB | 사업자등록번호 : 000-00-0000
+            대표번호 : 0000-0000 | FAX : 00-0000-0000
+            서울 금천구 디지털로9길 41 삼성IT헤링턴타워</address>
+    </footer>
+</body>
+</html>

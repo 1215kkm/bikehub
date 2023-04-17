@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0; }
+a {text-decoration: none; color: #333;}
+li {list-style: none;}
+img, fieldset, input, button, textarea {outline: 0;border:0; font-size: 0.9rem;}
+legend, caption, figcaption {font-size: 0; color: transparent; text-indent: -9999px; position: absolute; left: -9999px; height: 0; overflow: hidden; width: 0; height: 0; visibility:hidden;}
+
+table {border-collapse: collapse; font-size: 0.9rem;}
+
+input {-webkit-border-radius: 0;}
+
+textarea {font-family: 'Pretendard'}

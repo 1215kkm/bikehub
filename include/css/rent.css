@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+
+.rent-box {background: var(--bg1); border-radius: 10px; border:2px solid var(--bg4)}
+.rent-box li {background: none;}
+.rent-box li h3 {margin-bottom: 10px; color: var(--txtC3); font-size: 0.9rem; margin-bottom: 10px;}
+.rent-box li .rent-cont {width: 100%; color: var(--txtC5); font-size: 0.8rem; margin-bottom: 5px; display: block;}
+
+.cm-box {}
+.cm-box li {}
+.cm-box li:last-child {border-bottom: 0; }
+
+.rent-table {margin-top: 2rem; padding-bottom: 2rem; border-bottom: 1px solid rgb(2, 226, 255);}
+.rent-table:last-child {border-bottom: 0;}
+
+
+.table-box {margin-bottom: 3px; margin-top: 1rem; background: var(--bg1); border-radius: 10px; justify-content: space-between; display: flex; align-items: center;overflow-x: auto;background: var(--bg5); }
+
+
+
+.table-box {color: var(--txtC4); white-space: nowrap; ;}
+.table-box tr:nth-child(even) {background: rgba(59, 104, 255, 0.2);}
+
+.table-box table {min-width: 100%}
+.table-box thead {background: var(--bg1); color: var(--txtC5);}
+.table-box th,
+.table-box td {font-size: 0.7rem; padding: 0.5em 0.7em; ; }
+
+.table-box th img {width: 14px; vertical-align: middle; margin-right: 3px;}
+/* .table-box th {display: flex; width: 100px; align-items: center;} */
+
+
+.rent-table small {color: #fff; display: block; display: flex; align-items: center;}
+.rent-table small img {width: 16px; margin-right: 8px;}
+
+
+
+.tabmenu {margin-bottom: 1.5rem;}
+.tabmenu a {display: inline-block; width: 49%; text-align: center; height: 2.5rem; background: #aaa; line-height: 2.5rem; border-radius: 10px; color: #fff;}
+.tabmenu a:last-child {float: right;}
+.tabmenu a.on {background: var(--bg1); color: var(--txtC1);}
+
+
+.rentsearch-box {margin-bottom: 2rem;}
+.rentsearch-box .carcomp > li {display: flex; align-items: center; margin-bottom: 10px;}
+.rentsearch-box .carcomp > li label {flex:0.7; color: #fff;}
+.rentsearch-box .carcomp > li select {flex:1.3; margin-bottom: 0;}
+
+.rentsearch-box .carbohum > li {display: flex; align-items: center; margin-bottom: 10px; gap: 10px; justify-content: space-between; align-items: center; text-align: center;}
+.rentsearch-box .carbohum > li .cm-select {margin-bottom: 0;}
+.rentsearch-box .carbohum > li select {flex: 0.9;}
+.rentsearch-box .carbohum > li .cm-check-wrap {flex: 1.1; display: flex; }
+.rentsearch-box .carbohum > li .cm-check-wrap li {display: flex; align-items: center; }
+.rentsearch-box .carbohum > li .cm-check-wrap i {float: none;}
+
+
+.rentsearch-box .carbohum > li:last-child .cm-check-wrap {display: flex; align-items: center; justify-content: center; margin-top: 20px; }
+.rentsearch-box .carbohum > li:last-child .cm-check-wrap li {justify-content: center;}
+
+
+
+/* 
+
+
+.somobox-cont {background:var(--bg2); min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.somobox-cont li {display: flex; height: auto; align-items: center; margin-bottom: 3px; flex-wrap: wrap; }
+.somobox-cont h3 {font-size: 0.8rem; line-height: 1.5rem; color: var(--txtC7); font-weight: normal; flex:1}
+.won {color: #fff; font-size: 0.8rem; line-height: 1.5rem; font-weight: bold;}
+.somobox-cont li .won {color:  var(--txtC7);; font-style: normal; font-size: 15px;}
+.somobox-cont li .won span {margin-right: 5px;}
+.somobox-cont li .ea {color:  var(--txtC7);; font-style: normal; font-size: 15px; font-weight: bold;}
+.somobox-cont li .ea span {margin-right: 5px;}
+.somobox-cont li.on {background: var(--select2); position: relative; }
+.somobox-cont li.on h3,
+.somobox-cont li.on .won {color:  var(--txtC5) }
+.somobox-cont li.on:before,
+.somobox-cont li.on:after {content: ""; position: absolute; width: 8px; height: 100%; top: 0; background: inherit;}
+.somobox-cont li.on:before {left: -7px; border-radius: 3px 0 0 3px;}
+.somobox-cont li.on:after {right: -7px; border-radius: 0 3px 3px 0;}
+
+.somobox-cont li p {color:  var(--txtC7);; font-size: 0.8rem;}
+.somobox-cont li p.tit {flex-basis:70%; color: var(--txtC4);}
+.somobox-cont li i.del {flex-basis:30%; text-align: right; cursor: pointer;}
+.somobox-cont li i.del img {width: 20px;}
+.somobox-cont li p.icon-change {flex:0.8; background: #019120; text-align: center; color: #fff;}
+.somobox-cont li p.won {flex:2; text-align: center; padding: 0 10px; color: var(--txtC7);}
+.somobox-cont li p.ea {flex:1; background: rgba(0,0,0,0.06); text-align: center; color: var(--txtC7);} */
+
+
+
+
+
+.rent-apply {background:var(--bg2); min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.rent-apply li {display: flex; height: auto; align-items: center; margin-bottom: 3px; flex-wrap: wrap; }
+.rent-apply h3 {font-size: 0.8rem; line-height: 1.5rem; color: var(--txtC7); font-weight: normal; flex:1}
+.won {color: #fff; font-size: 0.8rem; line-height: 1.5rem; font-weight: bold;}
+.rent-apply li .won {color:  var(--txtC7);; font-style: normal; font-size: 15px;}
+.rent-apply li .won span {margin-right: 5px;}
+.rent-apply li .ea {color:  var(--txtC7);; font-style: normal; font-size: 15px; font-weight: bold;}
+.rent-apply li .ea span {margin-right: 5px;}
+.rent-apply li.on {background: var(--select2); position: relative; }
+.rent-apply li.on h3,
+.rent-apply li.on .won {color:  var(--txtC5) }
+.rent-apply li.on:before,
+.rent-apply li.on:after {content: ""; position: absolute; width: 8px; height: 100%; top: 0; background: inherit;}
+.rent-apply li.on:before {left: -7px; border-radius: 3px 0 0 3px;}
+.rent-apply li.on:after {right: -7px; border-radius: 0 3px 3px 0;}
+
+.rent-apply li p {color:  var(--txtC7);; font-size: 0.8rem;}
+.rent-apply li p.tit {flex-basis:70%; color: var(--txtC4);}
+.rent-apply li i.del {flex-basis:30%; text-align: right; cursor: pointer;}
+.rent-apply li i.del img {width: 20px;}
+.rent-apply li p.icon-change {flex:0.8; background: #019120; text-align: center; color: #fff;}
+.rent-apply li p.won {flex:2; text-align: center; padding: 0 10px; color: var(--txtC7);}
+.rent-apply li p.ea {flex:1; background: rgba(0,0,0,0.06); text-align: center; color: var(--txtC7);}
+
+.rent-apply {background: none; padding: 0;}
+.rent-apply li {margin-bottom: 3px; border-bottom: 1px dashed rgba(255,255,255,0.3); padding-bottom: 20px; background: var(--bg1); padding: 0.75rem 1rem; border-radius: 10px; border-bottom: 0; justify-content: space-between; }
+.rent-apply li:last-child {border-bottom: 0; }
+
+.rent-apply li .tit {margin-bottom: 10px; color: var(--txtC1) !important}
+.rent-apply li .icon-change {background: var(--icon1) !important; color: #222 !important; }
+.rent-apply li .dayday {width: 100%; color: var(--txtC5); margin-bottom: 5px;}
+.rent-apply li .month {width: 100%; color: var(--txtC5); margin-bottom: 5px;}
+.rent-apply li .company-name {background: none; padding: 0; font-weight: bold;  color: var(--txtC5); margin-bottom: 0;font-size: 0.9rem;}
+
+
+
+
+.rentapply-box {}
+.rentapply-box figure {border-radius: 10px; max-height: 50vh; overflow: hidden;;}
+.rentapply-box figure img {width: 100%;}
+
+
+
+.rent-apply {margin: 1rem 0;}
+.rent-apply .bikeandbohum,
+.rent-apply .onlybohum {display: none;}
+
+.rent-apply li {align-items: flex-start; flex-wrap: wrap;}
+.rent-apply li p {color: #fff; margin-bottom: 0.4em;}
+.rent-apply li p span.age {color: var(--txtC1); font-weight: bold;}
+.rent-apply li p.daily {color: rgb(255, 105, 5); }
+.rent-apply li p.noti {color: var(--txtC1);}
+.rent-apply li p.noti .icon-error {width: 18px; vertical-align: middle; }
+
+
+.rentapply-box .certi-num {display: flex; margin-top: 20px; align-items: center;}
+.rentapply-box .certi-num label { color: #fff;}
+.rentapply-box .certi-num .cm-text { flex:1;}
+.rentapply-box .cm-request { margin-top: 2rem;}
+
+
+.rent-head {background: #050666;min-height: 1.5rem;border-radius: 10px;padding: 0.75rem 1.4rem;transition: .5s; display: flex; justify-content: space-between; align-items: center}
+.rent-head h3 {font-size: 0.8rem;color: #fff;cursor: pointer; font-weight: normal;}
+.rent-head .misuwon {font-size: 0.8rem;color: var(--txtC1);cursor: pointer; font-weight: bold; }
+
+
+.inrent li p.icon-change {background: var(--bg4) !important; color: #fff !important;}
+.applyrent li p.icon-change {background: crimson !important; color: #fff !important;}
+
+

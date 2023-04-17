@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+
+
+.rentsharing-box {background: #050666; min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.rentsharing-box li {display: flex; height: 1.5rem; align-items: center; }
+.rentsharing-box h3 {font-size: 0.8rem; line-height: 1.5rem; color: #fff; font-weight: normal; flex:1}

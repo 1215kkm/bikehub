@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>바이크허브</title>
+    <link rel="stylesheet" href="/include/css/reset.css">
+    <link rel="stylesheet" href="/include/css/font.css">
+    <link rel="stylesheet" href="/include/css/common.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    <script src="/include/js/jquery-3.6.3.min.js"></script>
+    <script src="/include/js/common.js"></script>
+</head>
+<body>
+
+    <header>
+    </header>
+
+
+
+    <!-- 개별 css,js -->
+    <link rel="stylesheet" href="/include/css/shop.css">
+
+    
+
+    <section class="cm-section-sub cm-mt100">
+        <!--
+            * 카카오맵 - 약도서비스
+            * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+            * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+        -->
+        <!-- 1. 약도 노드 -->
+        <div id="daumRoughmapContainer1680628796391" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%; position: absolute; left: 0; height: 100%;"></div>
+
+        <!-- 2. 설치 스크립트 -->
+        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+        <!-- 3. 실행 스크립트 -->
+        <script charset="UTF-8">
+            new daum.roughmap.Lander({
+                "timestamp" : "1680628796391",
+                "key" : "2ebxk",
+                "mapWidth" : "",
+                "mapHeight" : "640"
+            }).render();
+        </script>
+
+
+
+
+        <div class="shop-estimate">
+            <a href="/html/sub/reservation/reservation_payment.html">
+                <div class="cont">                    
+                        <h3>강서오토바이</h3>
+                        <span class="phone">02-2645-9629</span>
+                        <address>서울 양천구 신목로 60-1</address>
+                        <i class="reserv"><img src="/images/common/icon-arrow1.png" alt=""></i>
+                </div>
+            </a>
+        </div>
+        
+    </section>
+
+
+
+
+    <footer>
+        <div class="link-box">
+            <a href="#">로그아웃</a>
+            <a href="#">약관 및 정책</a>
+            <a href="#">개인정보취급방침</a>
+        </div>
+
+        <address>법인명(상호) : BIKE-HUB | 사업자등록번호 : 000-00-0000
+            대표번호 : 0000-0000 | FAX : 00-0000-0000
+            서울 금천구 디지털로9길 41 삼성IT헤링턴타워</address>
+    </footer>
+</body>
+</html>

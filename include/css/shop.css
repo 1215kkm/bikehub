@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+
+.btn-wrap {display: flex; gap: 10px;}
+.btn-wrap > div {flex:1; display: flex; }
+.btn-wrap > div .btnbox {flex:1; margin-top: 1rem; }
+/* .btnbox {margin-top: 1rem; margin-bottom: 1rem; float: left; width: 49%;} */
+
+
+
+.btn_big {background: #050666; min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem 1.2rem 1rem; width: 100%; display: block; box-sizing: border-box; border:3px solid transparent; }
+.btn_big:hover {border:3px solid var(--txtC1); }
+.btn_big .title3 {height: 2.5rem; border-bottom: 1px solid #ddd; display: block; text-align: center; line-height: 2rem; font-size: 0.9rem; }
+.btn_big p {height: 3.5rem; line-height: 1.2rem; font-size: 16px; color: #fff; margin-top: 20px;}
+.btn_big .result {font-size: 18px; color: #fff; text-align: right;}
+.btn_big .result span {margin-left: 20px; font-weight: bold;}
+
+
+
+
+
+
+/* .company-name {line-height: 35px; background: var(--select1); color: #222; border:0; margin-bottom: 13px; border-radius: 10px; padding:0 0.5rem; font-size: 0.9rem;} */
+
+
+
+.total-box {border-bottom: 1px solid #000; border-radius: 10px; padding: 0.7rem; box-sizing: border-box; font-size: 1rem; width: 100%; min-height: 150px; font-size: .8rem; background: var(--bg2); margin: 1rem 0;}
+
+.total-box ul li {display: flex; color: var(--txtC4); font-size: 0.9rem; min-height: 1.5rem; line-height: 1.5rem; position: relative;}
+.total-box ul li p.tit {flex:0.9; }
+.total-box ul li p.price {flex:1.1;  }
+
+.total-box ul li:nth-child(1) p.tit {}
+.total-box ul li:nth-child(1) p.price {font-weight: bold;}
+
+.total-box ul li:nth-child(2) p.tit {}
+.total-box ul li:nth-child(2) p.price {}
+.total-box ul li:nth-child(2) p.price input[type=text] {float: left;; width: 57%; background: var(--bg3); height: 1.5rem; border-radius: 3px; color: #fff; text-indent: 10px; margin-right: 3%;}
+.total-box ul li:nth-child(2) p.price button[type=button] {float: right;; width: 40%; font-size: 0.7rem; letter-spacing: -0.05rem; background: var(--btnC3); color: #fff; height: 1.5rem; border-radius: 3px; position: relative; }
+.total-box ul li:nth-child(2) p.price button[type=button] em {font-style: normal;}
+.total-box ul li:nth-child(2) p.price button span.delete {position: absolute; width: 20px;height: 20px; line-height: 20px; background: #fff; left: -28px; display: none; border-radius: 50%; color: #000; font-weight: bold;}
+.total-box ul li:nth-child(2) p.price small {float: left; letter-spacing: -0.05rem; font-size: 0.65rem;}
+
+.total-box ul li:last-child {border-top: 1px solid var(--line1); padding: 1rem 0 0 0; margin-top: 1rem; }
+.total-box ul li:nth-child(3) p.tit {font-weight: bold; font-size: 1.1rem;}
+.total-box ul li:nth-child(3) p.price {text-align: right; font-size: 1.1rem;}
+
+
+
+
+
+/* 예약 상세정보 */
+.reserv-box {}
+.reserv-box h3 {height: 35px; line-height: 35px; background: var(--select1); color: #222; border:0; margin-bottom: 13px; border-radius: 10px; padding:0 0.5rem; font-size: 0.9rem; font-weight: normal; float: left; width: 20%;}
+.reserv-box .stat-box {height: 35px; line-height: 35px; background: var(--select1); color: #222; border:0; margin-bottom: 13px; border-radius: 10px; padding:0 0.5rem; font-size: 0.9rem; font-weight: normal; float: right; letter-spacing: -0.03rem; width: 67%; display: flex; font-weight: bold;}
+.reserv-box .stat-box .stat {position: relative; padding: 0 5px; width: 30%; color: var(--txtC6); font-size: 0.8rem;; }
+.reserv-box .stat-box .stat::before {content: ""; position: absolute; width: 1px; height: 10px; background: var(--line1); right: 0; top: 12px;}
+.reserv-box .stat-box .reserv-number {color: var(--txtC6);text-align: right; width: 70%;; font-size: 0.8rem;}
+
+.reserv-box .stat-box.cancle .stat {color:red;}
+.reserv-box .stat-box.cancle .reserv-number {color:red;}
+
+
+
+.reserv-box .reserv {line-height: 35px; background: var(--select1); color: #222; border:0; margin-bottom: 13px; border-radius: 10px; padding:0 0.5rem; font-size: 0.9rem; font-weight: normal; display: flex; flex-wrap: wrap; align-items: center;}
+.reserv-box .reserv p {flex:1.2 0 70%}
+.reserv-box .reserv button {flex:0.8 0 30%; height: 24px; line-height: 24px; font-size: 0.7rem; border-radius: 3px; background: var(--bg4); color: #fff;}
+.reserv-box .reserv small {flex:2; text-align: right; }
+.reserv-box .reserv small img {width: 14px; vertical-align: middle; margin-right: 3px;;}
+
+.company h3 {float: left; width: 50%; font-size: 0.8rem;}
+.company .phone {float: right; font-size: 0.7rem; width: 50%; font-weight: normal;}
+.company address {float: left; width: 100%; margin-top: 0px; font-size: 0.7rem; font-style: normal; line-height: 1.4em; padding-bottom: 10px;}
+
+
+
+.detail-box {border-bottom: 1px solid #000; border-radius: 10px; padding: 0.7rem; box-sizing: border-box; font-size: 1rem; width: 100%; font-size: .8rem; background: var(--bg2); margin: 1rem 0;}
+
+.detail-box ul li {display: flex; color: var(--txtC4); font-size: 0.9rem; line-height: 1.5rem; position: relative;}
+.detail-box ul li p.tit {flex:1; font-weight: bold;}
+.detail-box ul li p.price {flex:1;  text-align: right; font-weight: bold;}
+
+.detail-box ul li:nth-child(1) p.tit {font-size: 0.7rem; font-weight: normal;}
+.detail-box ul li:nth-child(1) p.price {font-size: 0.7rem; font-weight: normal;}
+
+
+.reserv-btnbox .cm-btn {width: 49%; float: left;}
+.reserv-btnbox .cm-btn:nth-child(2n) {float: right;}
+
+
+
+.reservation-list {background:var(--bg2); min-height: 1.5rem; border-radius: 10px; padding: 0.75rem 1rem;}
+
+.reservation-list li {display: flex; height: auto; align-items: center; margin-bottom: 3px; flex-wrap: wrap; }
+.reservation-list h3 {font-size: 0.8rem; line-height: 1.5rem; color: var(--txtC7); font-weight: normal; flex:1}
+.won {color: #fff; font-size: 0.8rem; line-height: 1.5rem; font-weight: bold;}
+.reservation-list li .won {color:  var(--txtC7);; font-style: normal; font-size: 15px;}
+.reservation-list li .won span {margin-right: 5px;}
+.reservation-list li .ea {color:  var(--txtC7);; font-style: normal; font-size: 15px; font-weight: bold;}
+.reservation-list li .ea span {margin-right: 5px;}
+.reservation-list li.on {background: var(--select2); position: relative; }
+.reservation-list li.on h3,
+.reservation-list li.on .won {color:  var(--txtC5) }
+.reservation-list li.on:before,
+.reservation-list li.on:after {content: ""; position: absolute; width: 8px; height: 100%; top: 0; background: inherit;}
+.reservation-list li.on:before {left: -7px; border-radius: 3px 0 0 3px;}
+.reservation-list li.on:after {right: -7px; border-radius: 0 3px 3px 0;}
+
+.reservation-list li p {color:  var(--txtC7);; font-size: 0.8rem;}
+.reservation-list li p.tit {flex-basis:70%; color: var(--txtC4);}
+.reservation-list li i.del {flex-basis:30%; text-align: right; cursor: pointer;}
+.reservation-list li i.del img {width: 20px;}
+.reservation-list li p.icon-change {flex:0.8; background: #019120; text-align: center; color: #fff;}
+.reservation-list li p.won {flex:2; text-align: center; padding: 0 10px; color: var(--txtC7);}
+.reservation-list li p.ea {flex:1; background: rgba(0,0,0,0.06); text-align: center; color: var(--txtC7);}
+
+.reservation-list {background: none; padding: 0;}
+.reservation-list li {margin-bottom: 3px; border-bottom: 1px dashed rgba(255,255,255,0.3); padding-bottom: 20px; background: var(--bg1); padding: 0.75rem 1rem; border-radius: 10px; border-bottom: 0; justify-content: space-between; }
+.reservation-list li:last-child {border-bottom: 0; }
+
+.reservation-list li .tit {margin-bottom: 10px; color: var(--txtC1) !important}
+.reservation-list li .icon-change {background: var(--bg4) !important; color: #fff; }
+.reservation-list li .address {width: 100%; color: var(--txtC5); margin-bottom: 5px;}
+.reservation-list li .company-name {background: none; padding: 0; font-weight: bold;  color: var(--txtC5); margin-bottom: 0;font-size: 0.9rem;}
+
+
+
+
+.shop-wrap {}
+.shop-box {}
+.shop-box .b-date {text-align: center; display: block; color: #fff; margin-top: 20px; margin-bottom: 10px; font-size: 0.9rem;}
+
+.shop-box li h3 {margin-bottom: 10px; color: var(--txtC1); font-size: 0.9rem; margin-bottom: 10px;}
+.shop-box li span.km {width: 100%; color: var(--txtC5); font-size: 0.8rem; margin-bottom: 5px; display: block;}
+.shop-box li .company-name {font-weight: bold;  color: var(--txtC5); font-size: 0.8rem;}
+.shop-box li .car-won {color: var(--txtC5); font-weight: normal; font-size: 0.9rem;}
+.shop-box li .car-won span {font-weight: bold; }
+
+
+
+
+
+
+.shop-estimate {position: absolute; z-index: 777; bottom: 20px; background: var(--bg1); left: 50%; width: 90%; padding: 10px; border-radius: 10px; transform: translateX(-50%); font-size: 0.85rem;}
+.shop-estimate a {color: #fff; display: block; width: 100%;/*  background: #000; */}
+.shop-estimate .cont {padding: 0 0.5rem; position: relative; }
+.shop-estimate .cont h3 {font-size: 0.9rem; float: left; margin-right: 0.5rem; color: var(--txtC1); width: 55%; }
+.shop-estimate .cont .phone {float: right; font-size: 0.8rem;}
+.shop-estimate .cont address {float: left; width: 70%; margin-top: 8px; font-size: 0.8rem; font-style: normal; }
+.shop-estimate .cont .reserv {float: right; width: 1.2rem; height: 1.2rem;background: rgb(16, 70, 219); border-radius: 50%; margin-top: 7px; margin-right: 0; }
+.shop-estimate .cont .reserv img {width: 90%;}
+
+/* .shop-estimate .right {float: right; width: 20%;}
+.shop-estimate .right i {float: right;}
+.shop-estimate .right label {width: 100%; height: 100%; display: block;} */
+
+.shop-estimate li {margin-bottom: 3px; border-bottom: 1px dashed rgba(255,255,255,0.3); padding-bottom: 20px; background: var(--bg1); padding: 0.75rem 1rem; border-radius: 10px; border-bottom: 0; align-items: stretch;}
+
